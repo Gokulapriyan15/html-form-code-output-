@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>feedback</title>
+</head>
+<body>
+	<h1>my feedback form</h1>
+	<form method="POST" action="">
+	<ul>
+		<div>
+			<li>Name:<input type="text" placeholder="Enter your name" name="Name" required></li>
+		</div>
+		<div>
+			<li>Email:<input type="Email" placeholder="Enter your email" name="ename" required></li>
+		</div>
+		<div>
+
+			<li>please check all the emotions that apply to you</li>
+			<ul>
+				<li>Angry<input type="checkbox" name="cname" value="angry"></li>
+				<li>Sad<input type="checkbox" name="cname" value="sad"></li>
+				<li>Happy<input type="checkbox" name="cname" value="sad"></li>
+			</ul>
+		</div>
+		<div>
+			<li>how satcified where you with your service</li>
+			<ul>
+				<li>very satcified<input type="radio" value="very satcified" name="sname"></li>
+			    <li>satcified<input type="radio" value="satcified" name="sname"></li>
+				<li>did not care<input type="radio" value="did not care" name="sname"></li>
+				<li>dissatcified<input type="radio" value="dis satcified" name="sname"></li>
+				<li>very dissatcified<input type="radio" value="very dis satcified" name="sname"></li>
+			</ul>
+		</div>
+		<div>
+			<li>Further comment:
+			<textarea row="60" cols="20"></textarea></li>
+		</div>
+		<br>
+		<div>
+			<li><label>Bio photo:</label><input type="file" required ></li>
+		</div>
+		<div>
+			<li>location visited:
+			<select>
+				<option vlaue="select loaction" name="lname">select location</option>
+				<option vlaue="delhi" name="lname">DELHI</option>
+				<option vlaue="select loaction" name="lname">DUBAI</option>
+				<option vlaue="select loaction" name="lname">TANJAVUR</option>
+				<option vlaue="select loaction" name="lname">USA</option>
+			</select></li>
+		</div>
+		<br>
+		<br>
+		<li><input type="submit" value="submit"></li>
+    </ul>
+    </form>
+</body>
+</html>
